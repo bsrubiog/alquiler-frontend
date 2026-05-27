@@ -1,16 +1,22 @@
-# React + Vite
+Alquiler Frontend
+Proyecto de frontend para la gestión de alquileres, desarrollado como parte de mi formación.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+📦 Cómo ejecutar el proyecto localmente
+Sigue estos pasos para correr el proyecto en tu computadora:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Clonar el repositorio:
 
-## React Compiler
+Bash
+git clone https://github.com/bsrubiog/alquiler-frontend.git
+Instalar dependencias:
+Entra a la carpeta del proyecto y ejecuta:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Bash
+npm install
+Iniciar el servidor de desarrollo:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Bash
+npm run dev
+Ver el proyecto:
+Abre tu navegador en el enlace que aparecerá en la terminal (usualmente http://localhost:5173).
